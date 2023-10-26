@@ -1,0 +1,135 @@
+.chip{
+    width: 100%;
+    height: 32px;
+    border-radius: 10px;
+    
+}
+
+.lou{
+    position: relative;
+    width: 500PX;
+    height: auto;
+   
+}
+span.mama{
+    margin-left: -60px;
+    
+}
+.hu{
+    margin-top: 10px;
+}
+/* .ha{
+    margin-top: 5px;
+} */
+.fi{
+    display: flex;
+    
+
+    width: 100px;
+    height: auto;
+   
+}
+.tis{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.fi img{
+    /* margin-top: -30px; */
+}
+
+ .va{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 19px;
+    margin-left: 10px;
+}   
+.panier2{
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.panier1{
+    width: 161px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #2BA39B;
+    display: grid;
+}
+/* .wi{
+   width: 110px;
+   height: 45px;
+    text-align: center;
+    background-color: #2BA39B;
+    border: 3px solid white;
+} */
+.deco a{
+    text-decoration: none;
+    color: red;
+}
+.wi{
+    width: 150px;
+    height: 50px;
+    background-color: #2BA39B;
+    border: 2px solid white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.cor{
+   margin-top: 120px;
+}
+.wi p{
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+
+.quel{
+    width: 440px;
+    height: auto;
+    border: 2px solid gray;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-top: -50px;
+}
+.gu{
+    display: flex;
+   
+}
+.bon{
+    width: 92%;
+    height: 1px;
+    background-color: rgb(191, 191, 191);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.trait{
+    width: 92%;
+    height: 1px;
+    background-color: rgb(191, 191, 191);
+    margin-left: 20px;
+}
+.total {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.quel h1{
+    margin-left: 20px;
+}
+.derni{
+    width: 150px;
+    height: 50px;
+    background-color: #2BA39B;
+    border: 2px solid #2BA39B;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}

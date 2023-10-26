@@ -1,0 +1,50 @@
+.lou{
+    position: relative;
+    width: 500PX;
+    height: auto;
+   
+}
+input.chip{
+    height: 37px;
+    width: 510px;
+}
+
+.va{
+   margin-left: -1000px;
+}  
+.count{
+    width: 30px;
+    height: 30px;
+   border-radius: 50px;
+    background-color: black;
+}
+
+.vi{
+    width: 120px;
+    border: 3px solid white;
+    margin-top: 10px;
+
+
+    
+
+
+    background-color: #2BA39B;
+
+
+    border-radius: 30px;
+    height: 40px;
+
+}
+.papi{
+    margin-top: 70px;
+}
+.vas{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+ p.fi{
+    font-size: 14px;
+}
