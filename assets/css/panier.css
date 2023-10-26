@@ -11,9 +11,13 @@
     height: auto;
    
 }
+.chin{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
 span.mama{
     margin-left: -60px;
-    
 }
 .hu{
     margin-top: 10px;

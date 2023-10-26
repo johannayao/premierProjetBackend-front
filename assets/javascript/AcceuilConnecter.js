@@ -31,6 +31,15 @@ button.addEventListener("click",(e)=>{
             imgs : imgs 
          }
 
+         // panier.push(article)
+         // localStorage.setItem("panier",JSON.stringify(panier))
+         // count.textContent = panier.length<=8?panier.length:"8"
+
+         // const showPanier = (balise)=>{
+         //    const npanier = localStorage.panier?JSON.parse(localStorage.panier).length:0
+         //    balise.textContent = npanier<= "8"? npanier
+         // }
+
          let panier = localStorage.getItem("panier")
          console.log(panier);
          if(panier === null){
