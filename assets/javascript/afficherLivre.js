@@ -1,7 +1,7 @@
 
 
 const session = localStorage.sessionLibrairie;
-fetch("http://localhost:4010/api/livre/getAll")
+fetch("https://johlibrairie.onrender.com/api/livre/getAll")
 .then(res=>res.json())
 .then(succes=>{
   console.log(succes);
