@@ -1,5 +1,5 @@
 const session = localStorage.sessionLibrairie;
-console.log(session);
+
 
 fetch("https://johlibrairie.onrender.com/api/livre/getAll")
   .then((res) => res.json())
@@ -42,31 +42,20 @@ fetch("https://johlibrairie.onrender.com/api/livre/getAll")
       const prix = document.querySelector(".prix").textContent;
       const nomArticle = document.querySelector(".lili").textContent;
       const nomAuteur = document.querySelector(".nono").textContent;
-      // console.log(prix,nomArticle,nomAuteur);
+      
       const paniers = localStorage.panier
         ? JSON.parse(localStorage.panier)
         : [];
       let id = null;
-      // if(!paniers.length){
-      //    id = 1
-      // }else{
-      //    id = paniers[paniers.length-1].id+1
-      // }
+     
       let article = {
         prix: prix,
         nomArticle: nomArticle,
         nomAuteur: nomAuteur,
         imgs: imgs
       };
-      alert();
-      // panier.push(article)
-      // localStorage.setItem("panier",JSON.stringify(panier))
-      // count.textContent = panier.length<=8?panier.length:"8"
-
-      // const showPanier = (balise)=>{
-      //    const npanier = localStorage.panier?JSON.parse(localStorage.panier).length:0
-      //    balise.textContent = npanier<= "8"? npanier
-      // }
+     
+      
 
       let panier = localStorage.getItem("panier");
       console.log(panier);
@@ -103,29 +92,18 @@ button.addEventListener("click", (e) => {
   const prix = document.querySelector(".prix").textContent;
   const nomArticle = document.querySelector(".lili").textContent;
   const nomAuteur = document.querySelector(".nono").textContent;
-  // console.log(prix,nomArticle,nomAuteur);
+  
   const paniers = localStorage.panier ? JSON.parse(localStorage.panier) : [];
   let id = null;
-  // if(!paniers.length){
-  //    id = 1
-  // }else{
-  //    id = paniers[paniers.length-1].id+1
-  // }
+  
   let article = {
     prix: prix,
     nomArticle: nomArticle,
     nomAuteur: nomAuteur,
     imgs: imgs
   };
-  alert();
-  // panier.push(article)
-  // localStorage.setItem("panier",JSON.stringify(panier))
-  // count.textContent = panier.length<=8?panier.length:"8"
-
-  // const showPanier = (balise)=>{
-  //    const npanier = localStorage.panier?JSON.parse(localStorage.panier).length:0
-  //    balise.textContent = npanier<= "8"? npanier
-  // }
+  
+  
 
   let panier = localStorage.getItem("panier");
   console.log(panier);

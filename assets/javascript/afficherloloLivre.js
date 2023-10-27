@@ -48,8 +48,7 @@ button.addEventListener("click",(e)=>{
     const nomArticle = document.querySelector(".lili").textContent
     const nomAuteur = document.querySelector(".nono").textContent
     
-      const paniers = localStorage.panier? JSON.parse(localStorage.panier):[];
-      let id= null
+      
      
          let article = {
             prix: prix,
