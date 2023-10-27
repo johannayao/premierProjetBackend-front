@@ -16,7 +16,7 @@ fetch("https://johlibrairie.onrender.com/api/livre/getAll")
               <p class="nono">${element.auteur}</p>
             </div>
             <div class="panio">
-              <a href="#" class="button" id="hynt"><img src="./assets/images/panier__1_-removebg-preview.png" class="card" alt="" ></a>
+              <a href="#" class="button"><img src="../assets/images/panier__1_-removebg-preview.png" class="card" alt="" ></a>
               <span class="prix">${element.prix} FCFA</span>
             </div>
           </div>`;

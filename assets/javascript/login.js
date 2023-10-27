@@ -7,7 +7,7 @@ formulaire.addEventListener("submit", (e)=>{
     const allInput = e.target.querySelectorAll("input");
     const  formData = new FormData();
     allInput.forEach(input=>formData.append(input.name, input.value));
-    fetch("http://localhost:4010/api/librairie/login",{
+    fetch("https://johlibrairie.onrender.com/api/librairie/login",{
         method: "POST",
         body: new URLSearchParams(formData)
     })

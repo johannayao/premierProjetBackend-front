@@ -1,5 +1,6 @@
 
-const button = document.querySelector(".button")
+const button = document.querySelector("#hynt")
+
 
 const contPanier= JSON.parse(localStorage.getItem("panier"))
 const compt = document.querySelector(".hu")
@@ -8,7 +9,8 @@ count.textContent = contPanier === null ? 0: contPanier.length
 
 
 button.addEventListener("click",(e)=>{
-   
+   alert(hynt)
+  
     let enfant = e.target
     let parent = enfant.closest(".bix") 
 
@@ -30,7 +32,7 @@ button.addEventListener("click",(e)=>{
             nomAuteur: nomAuteur,
             imgs : imgs 
          }
-
+         alert()
          // panier.push(article)
          // localStorage.setItem("panier",JSON.stringify(panier))
          // count.textContent = panier.length<=8?panier.length:"8"
