@@ -1,6 +1,6 @@
 
 const button = document.querySelector("#hynt")
-
+console.log(button);
 
 const contPanier= JSON.parse(localStorage.getItem("panier"))
 const compt = document.querySelector(".hu")
@@ -9,7 +9,9 @@ count.textContent = contPanier === null ? 0: contPanier.length
 
 
 button.addEventListener("click",(e)=>{
-   alert(hynt)
+   e.preventDefault();
+  console.log(button);
+
   
     let enfant = e.target
     let parent = enfant.closest(".bix") 
@@ -21,11 +23,11 @@ button.addEventListener("click",(e)=>{
     // console.log(prix,nomArticle,nomAuteur);
       const paniers = localStorage.panier? JSON.parse(localStorage.panier):[];
       let id= null
-      if(!paniers.length){
-         id = 1
-      }else{
-         id = paniers[paniers.length-1].id+1
-      }
+      // if(!paniers.length){
+      //    id = 1
+      // }else{
+      //    id = paniers[paniers.length-1].id+1
+      // }
          let article = {
             prix: prix,
             nomArticle: nomArticle,
